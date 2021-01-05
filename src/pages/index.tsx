@@ -9,7 +9,7 @@ const IndexPage: FC = () => {
   return (
     <Layout>
       <SEO
-        title={`Record Keeping & Communication tool for Montessori Schools`}
+        title={`Ant Digital`}
       />
       <div className="justify-center pt-8 md:pt-16">
         <div className="md:flex items-center justify-center mb-32">
