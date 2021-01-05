@@ -100,50 +100,18 @@ const Sidebar: FC<{ show: boolean; onClose: () => void }> = ({
         <div className="prose flex flex-col ml-6">
           <h3 className="my-2">
             <Link
-              to="/help"
+              to="/about"
               className="no-underline font-bold hover:text-green-700 transition-colors"
             >
-              Help Center
+              About
             </Link>
           </h3>
-          <h3 className="my-2">
-            <Link
-              to="/pricing"
-              className="no-underline font-bold hover:text-green-700 transition-colors"
-            >
-              Pricing
-            </Link>
-          </h3>
-          <h3 className="my-2">
-            <a
-              href="https://feedback.obserfy.com"
-              className="no-underline font-bold hover:text-green-700 transition-colors"
-            >
-              Roadmap
-            </a>
-          </h3>
-          <h3 className="my-2">
-            <a
-              href="https://feedback.obserfy.com/changelog"
-              className="no-underline font-bold hover:text-green-700 transition-colors"
-            >
-              What&apos;s New
-            </a>
-          </h3>
-          {/* <h2> */}
-          {/*  <Link */}
-          {/*    to="/blog" */}
-          {/*    className="no-underline font-bold hover:text-green-700 transition-colors" */}
-          {/*  > */}
-          {/*    Blog */}
-          {/*  </Link> */}
-          {/* </h2> */}
           <h3 className="my-2">
             <Link
               to="/contact"
               className="no-underline font-bold hover:text-green-700 transition-colors"
             >
-              Contact Us
+              Contact
             </Link>
           </h3>
         </div>
