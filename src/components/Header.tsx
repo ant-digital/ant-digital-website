@@ -29,8 +29,8 @@ const Header: FC = () => {
           </div>
 
           <nav className="hidden md:flex mx-auto absolute w-full left-0 right-0 justify-end pointer-events-none">
-            <InternalNavLinks href="/help" text={`About Us`} />
-            <InternalNavLinks href="/pricing" text={`Contact Us`} />
+            <InternalNavLinks href="/about" text={`About`} />
+            <InternalNavLinks href="/contact" text={`Contact`} />
             {/* <NavLinks href="https://feedback.obserfy.com" text={`Roadmap`} />
             <NavLinks
               href="https://feedback.obserfy.com/changelog"

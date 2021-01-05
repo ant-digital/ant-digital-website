@@ -28,7 +28,7 @@ const IndexPage: FC = () => {
         <div className="flex flex-col md:flex-row md:items-start mb-16 lg:mb-0 md:mt-64 relative">
         <h2 className="text-3xl md:text-5xl">
               What We Do
-            </h2>
+        </h2>
         </div>
 
         <div className="prose justify-center md:flex max-w-full mb-40 px-5">
@@ -62,7 +62,7 @@ const IndexPage: FC = () => {
 
         <div className="flex flex-col md:flex-row md:items-start relative lg:mb-0 mb-16 mt-32">
           <div className="px-5 mt-5">
-            <div className="prose prose-lg pr-6 max-w-xl">
+            <div className="pr-6 max-w-xl">
             <h2 className="text-3xl md:text-5xl">
               Portfolios
             </h2>
