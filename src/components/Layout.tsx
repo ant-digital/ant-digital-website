@@ -23,7 +23,7 @@ const Layout: FC = ({ children }) => {
       <div className="max-w-7xl mx-auto relative">
         <main>{children}</main>
         <footer className="px-3 text-center py-3 flex items-center pt-8 text-gray-700">
-          <div>© {new Date().getFullYear()} Obserfy</div>
+          <div>© {new Date().getFullYear()} Ant Digital</div>
           <Link to="/privacy-policy" className="ml-3 underline">
             Privacy Policy
           </Link>

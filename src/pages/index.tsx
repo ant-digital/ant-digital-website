@@ -69,20 +69,6 @@ const IndexPage: FC = () => {
             <h2 className="text-3xl md:text-5xl">
               Portfolios
             </h2>
-              <p>
-                
-                  Collaboration between parents and schools are important,
-                  especially in the post-COVID 19 world.
-                
-              </p>
-              <p>
-                We help you empower parents, providing custom dashboard for them
-                to access and making it{" "}
-                <GreenBold>
-                  easy to share your data and collaborate with parents on their
-                  child&apos;s education.
-                </GreenBold>
-              </p>
             </div>
           </div>
         </div>
@@ -90,7 +76,7 @@ const IndexPage: FC = () => {
         <div className="prose md:flex justify-between max-w-full px-4 mb-24">
           <div className="w-full pr-6">
             <h3>
-              Share curriculum progress with parents
+              Portfolio 1
             </h3>
             <p>
               
@@ -102,7 +88,7 @@ const IndexPage: FC = () => {
 
           <div className="w-full pr-6">
             <h3>
-              Share lesson plans
+            Portfolio 2
             </h3>
             <p>
               
@@ -114,7 +100,7 @@ const IndexPage: FC = () => {
 
           <div className="w-full pr-6">
             <h3>
-              Collaborate on Observations
+            Portfolio 3
             </h3>
             <p>
               
@@ -127,7 +113,7 @@ const IndexPage: FC = () => {
 
           <div className="w-full">
             <h3>
-              Share photos
+            Portfolio 4
             </h3>
             <p>
               
