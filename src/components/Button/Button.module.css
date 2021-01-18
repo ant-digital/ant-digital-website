@@ -1,7 +1,3 @@
-/* .base {
-  @apply py-3 px-6 shadow-sm rounded-lg bg-primaryDark text-white border border-green-800;
+.base {
+  @apply bg-primaryDark rounded-lg px-6 py-3 text-onPrimaryDark font-bold hover:scale-y-110;
 }
-.secondary {
-  @apply text-black border-solid bg-transparent border-gray-300 bg-white transition-colors flex-shrink-0 whitespace-nowrap;
-  @apply hover:bg-green-100
-} */

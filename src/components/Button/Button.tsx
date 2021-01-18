@@ -1,5 +1,6 @@
 import React, { ButtonHTMLAttributes, DetailedHTMLProps, FC } from "react"
-// import styles from "./Button.module.css"
+
+import styles from "./Button.module.css"
 
 interface Props
   extends DetailedHTMLProps<
@@ -15,16 +16,10 @@ const Button: FC<Props> = ({
   type = "button",
   ...props
 }) => {
-  return (
-    <button
-      type={type}
-      className={`
-      rounded p-2
-      ${className || ""} 
-      `}
-      {...props}
-    />
-  )
+  const finalClassName = `
+    ${className} ${styles.base}
+  `
+  return <button type={type} className={finalClassName} {...props} />
 }
 
 export default Button
