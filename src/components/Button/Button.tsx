@@ -16,7 +16,10 @@ const Button: FC<Props> = ({
   type = "button",
   ...props
 }) => {
-  return <button type={type} className={styles.base} {...props} />
+  const finalClassName = `
+    ${className} ${styles.base}
+  `
+  return <button type={type} className={finalClassName} {...props} />
 }
 
 export default Button
