@@ -1,7 +1,7 @@
 import React, { FC } from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import Button from "../components/Button/Button"
+import Button from "../components/Button"
 
 const ContactUsPage: FC = () => (
   <Layout>

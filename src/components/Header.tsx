@@ -1,6 +1,5 @@
 import { Link } from "gatsby"
 import React, { FC } from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
 const Header: FC = () => (
   <header
@@ -14,13 +13,7 @@ const Header: FC = () => (
     <div className="flex flex-row items-center ">
       <div className="flex items-center ml-1">
         <Link to="/" className="flex items-center">
-          <StaticImage
-            src={"../images/logo.png"}
-            alt={"ant digital logo"}
-            transformOptions={{ fit: "contain" }}
-            blurredOptions={{}}
-            width={24}
-          />
+          <img src={"/logo.svg"} alt="ant digital logo" />
           <p className="text-xl ml-3 font-bold font-body mb-1">Ant Digital</p>
         </Link>
 
@@ -33,10 +26,10 @@ const Header: FC = () => (
   </header>
 )
 
-const InternalNavLinks: FC<{ href: string; text: string }> = ({
-  href,
-  text,
-}) => (
+const InternalNavLinks: FC<{
+  href: string
+  text: string
+}> = ({ href, text }) => (
   <Link
     to={href}
     className="hover:text-primaryDark font-bold hover:underline transition-colors duration-200 ease-in-out p-2 lg:p-3 pointer-events-auto font-body"

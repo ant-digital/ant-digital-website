@@ -1,7 +1,5 @@
 import React, { ButtonHTMLAttributes, DetailedHTMLProps, FC } from "react"
 
-import styles from "./Button.module.css"
-
 interface Props
   extends DetailedHTMLProps<
     ButtonHTMLAttributes<HTMLButtonElement>,
@@ -17,7 +15,7 @@ const Button: FC<Props> = ({
   ...props
 }) => {
   const finalClassName = `
-    ${className} ${styles.base}
+    ${className} bg-primaryDark rounded-lg px-6 py-3 text-onPrimaryDark font-bold hover:scale-y-110
   `
   return <button type={type} className={finalClassName} {...props} />
 }
