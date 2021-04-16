@@ -28,6 +28,7 @@ const plugins = [
     },
   },
   `gatsby-plugin-image`,
+  `gatsby-plugin-gatsby-cloud`
 ]
 
 // load production only plugins

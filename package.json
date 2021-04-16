@@ -4,9 +4,11 @@
   "description": "Landing page for ant digital",
   "version": "0.1.0",
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.1",
     "gatsby": "^2.30.3",
+    "gatsby-plugin-gatsby-cloud": "^2.3.0",
     "gatsby-plugin-image": "^0.6.0-next.1",
     "gatsby-plugin-manifest": "^2.10.0",
     "gatsby-plugin-offline": "^3.8.0",
