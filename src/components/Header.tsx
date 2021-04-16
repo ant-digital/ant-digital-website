@@ -19,7 +19,7 @@ const Header: FC = () => (
             alt={"ant digital logo"}
             transformOptions={{ fit: "contain" }}
             blurredOptions={{}}
-            maxWidth={24}
+            width={24}
           />
           <p className="text-xl ml-3 font-bold font-body mb-1">Ant Digital</p>
         </Link>

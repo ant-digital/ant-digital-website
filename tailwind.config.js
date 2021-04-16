@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   important: true,
   purge: ["./src/**/*.tsx"],
   darkMode: false, // or 'media' or 'class'
@@ -11,9 +12,6 @@ module.exports = {
         onPrimaryDark: "white",
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [require("@tailwindcss/typography")],
 }
