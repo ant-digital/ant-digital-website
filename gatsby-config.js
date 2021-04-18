@@ -28,7 +28,7 @@ const plugins = [
     },
   },
   `gatsby-plugin-image`,
-  `gatsby-plugin-gatsby-cloud`
+  `gatsby-plugin-gatsby-cloud`,
 ]
 
 // load production only plugins
@@ -40,7 +40,7 @@ module.exports = {
   siteMetadata: {
     title: `Ant Digital`,
     description: `We build performant and accessible websites that delights your customers.`,
-    author: "@ant_digital"
+    author: "@ant_digital",
   },
   plugins,
 }

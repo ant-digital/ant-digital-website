@@ -6,16 +6,12 @@ import Button from "../components/Button"
 const ContactUsPage: FC = () => (
   <Layout>
     <SEO title={`Contact Us`} />
-    <div className="px-3 flex-row sm:flex my-16">
+    <div className="px-8 flex-row sm:flex my-16">
       <div className="flex-row justify-center lg:w-1/2 mr-3 prose prose-lg">
-        <h1>
-          Contact Us
-        </h1>
+        <h1>Contact Us</h1>
         <p className="text-xl mt-8 mb-3 text-gray-700 font-body max-w-md">
-          
-            Have a question? Shoot us a message using this form. We&apos;d love
-            to talk with you about your need.
-          
+          Have a question? Shoot us a message using this form. We&apos;d love to
+          talk with you about your need.
         </p>
       </div>
       <div className="flex-row justify-center lg:w-1/3 ml-auto">
@@ -46,7 +42,10 @@ const ContactUsPage: FC = () => (
               required
             />
           </label>
-          <Button className="w-full border bg-red-700 rounded text-lg" type="submit">
+          <Button
+            className="w-full border bg-red-700 rounded text-lg"
+            type="submit"
+          >
             Send
           </Button>
         </form>

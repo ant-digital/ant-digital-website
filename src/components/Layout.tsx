@@ -13,9 +13,9 @@ const Layout: FC = ({ children }) => {
   return (
     <div className="bg-no-repeat min-h-screen">
       <Header />
-      <div className="max-w-7xl mx-auto relative">
+      <div className="max-w-6xl mx-auto relative">
         <main>{children}</main>
-        <footer className="px-3 text-center py-3 flex items-center pt-8 text-gray-700">
+        <footer className="text-center flex items-center p-8 text-gray-700">
           <div>© {new Date().getFullYear()} Ant Digital</div>
         </footer>
       </div>

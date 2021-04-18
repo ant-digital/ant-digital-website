@@ -5905,10 +5905,10 @@ gatsby-page-utils@^1.3.0:
     lodash "^4.17.21"
     micromatch "^4.0.2"
 
-gatsby-plugin-gatsby-cloud@^2.4.0-next.0:
-  version "2.4.0-next.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-2.4.0-next.0.tgz#6943acf6f4faf4219f9a2111aa6d005ffaf20f0d"
-  integrity sha512-8QiKtVjz7QcvsZXPfLTuAWz8zfZenyQSLj0ghccvQqk4tY89kB7MtJCvs/jo6Up3dOQBYkdMu51s1QdlC2vXzA==
+gatsby-plugin-gatsby-cloud@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-2.3.0.tgz#cf8863ec9ac3042b15909277033c0661bf0977b2"
+  integrity sha512-o0i/xEXE/xux1hz0kar6FrluXaXYrP86mYRXA2hrXZarmPK+jW0A1BksVRsHPhLt89srk6V0d/2n//Ck4vjZVw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
@@ -10459,7 +10459,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.27:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.10, postcss@^8.2.4:
+postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.10:
   version "8.2.10"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.10.tgz#ca7a042aa8aff494b334d0ff3e9e77079f6f702b"
   integrity sha512-b/h7CPV7QEdrqIxtAf2j31U5ef05uBDuvoXv6L51Q4rcS1jdlXAVKJv+atCFdUXYl9dyTHGyoMzIepwowRJjFw==
@@ -10482,7 +10482,7 @@ preact-render-to-string@^5.1.12:
   dependencies:
     pretty-format "^3.8.0"
 
-preact@^10.5.9:
+preact@^10.5.13:
   version "10.5.13"
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.13.tgz#85f6c9197ecd736ce8e3bec044d08fd1330fa019"
   integrity sha512-q/vlKIGNwzTLu+jCcvywgGrt+H/1P/oIRSD6mV4ln3hmlC+Aa34C7yfPI4+5bzW8pONyVXYS7SvXosy2dKKtWQ==
@@ -12349,7 +12349,7 @@ table@^6.0.4:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwindcss@^2.0.2:
+tailwindcss@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.1.tgz#642f6038c9283a8e1454da34585b8b7c1a1e8877"
   integrity sha512-zZ6axGqpSZOCBS7wITm/WNHkBzDt5CIZlDlx0eCVldwTxFPELCVGbgh7Xpb3/kZp3cUxOmK7bZUjqhuMrbN6xQ==
@@ -12781,7 +12781,7 @@ typescript-plugin-css-modules@^3.0.1:
     stylus "^0.54.7"
     tsconfig-paths "^3.9.0"
 
-typescript@^4.1.3:
+typescript@^4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
   integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
