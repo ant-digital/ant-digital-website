@@ -37,10 +37,6 @@ if (process.env.NODE_ENV === "production") {
 }
 
 module.exports = {
-  flags: {
-    FAST_DEV: true,
-    DEV_SSR: true,
-  },
   siteMetadata: {
     title: `Ant Digital`,
     description: `We build performant and accessible websites that delights your customers.`,

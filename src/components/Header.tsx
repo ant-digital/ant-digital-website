@@ -2,28 +2,17 @@ import { Link } from "gatsby"
 import React, { FC } from "react"
 
 const Header: FC = () => (
-  <header
-    className="
-        backdrop-blur md:backdrop-none
-        max-w-7xl p-3 mx-auto
-        md:relative md:bg-transparent md:border-none
-        z-10
-      "
-  >
-    <div className="flex flex-row items-center ">
-      <div className="flex items-center ml-1">
-        <Link to="/" className="flex items-center">
-          <img src={"/logo.svg"} alt="ant digital logo" />
-          <p className="text-xl ml-3 font-bold font-body mb-1">Ant Digital</p>
-        </Link>
+  <nav className="sticky left-0 right-0 top-0 justify-end ">
+    <div className={"max-w-6xl flex items-center mx-auto p-8"}>
+      <Link to="/" className="flex items-center mr-auto">
+        <img src={"/logo.svg"} alt="ant digital logo" />
+        <p className="text-xl ml-3 font-bold font-body mb-1">Ant Digital</p>
+      </Link>
 
-        <nav className="flex ml-auto absolute w-full left-0 right-0 justify-end pointer-events-none">
-          <InternalNavLinks href="/about" text={`About`} />
-          <InternalNavLinks href="/contact" text={`Contact`} />
-        </nav>
-      </div>
+      <InternalNavLinks href="/about" text={`About`} />
+      <InternalNavLinks href="/contact" text={`Contact`} />
     </div>
-  </header>
+  </nav>
 )
 
 const InternalNavLinks: FC<{

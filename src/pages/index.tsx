@@ -5,15 +5,15 @@ import SEO from "../components/seo"
 const IndexPage: FC = () => (
   <Layout>
     <SEO title={`Ant Digital`} />
-    <div className="px-6 py-16 md:py-32 mb-16">
-      <div className="prose prose-lg md:prose-xl max-w-xl">
+    <div className="px-8 py-16 mb-16">
+      <div className="prose md:prose-xl">
         <h1>
           Delight Your Customers. <br /> Grow Your Business.
         </h1>
 
         <p className={"text-xl md:text-3xl"}>
           We help businesses increase customer reach and satisfaction through
-          the use of modern web technologies.{" "}
+          the use of modern web technologies.
         </p>
         <a className="cursor-pointer hover:text-primaryDark transition-colors duration-200 ease-in-out ">
           Learn how tech can help you
