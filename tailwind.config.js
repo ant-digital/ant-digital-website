@@ -9,6 +9,8 @@ module.exports = {
         onPrimary: "black",
         primaryDark: "#3f90d9",
         onPrimaryDark: "white",
+
+        surface: "white",
       },
     },
   },

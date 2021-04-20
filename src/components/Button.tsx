@@ -6,18 +6,27 @@ interface Props
     HTMLButtonElement
   > {
   secondary?: boolean
+  label?: string
 }
 
 const Button: FC<Props> = ({
+  label,
   secondary,
   className,
   type = "button",
   ...props
 }) => {
   const finalClassName = `
-    ${className} bg-primaryDark rounded-lg px-6 py-3 text-onPrimaryDark font-bold hover:scale-y-110
+    ${className} ring ring-gray-300 ring-1 rounded-lg px-6 py-3 text-onPrimaryDark font-bold hover:scale-y-110
   `
-  return <button type={type} className={finalClassName} {...props} />
+  return (
+    <button
+      aria-label={label}
+      type={type}
+      className={finalClassName}
+      {...props}
+    />
+  )
 }
 
 export default Button

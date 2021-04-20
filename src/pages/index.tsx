@@ -1,81 +1,126 @@
 import React, { FC } from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import { Trans } from "@lingui/macro"
 
 const IndexPage: FC = () => (
   <Layout>
-    <SEO title={`Ant Digital`} />
-    <div className="px-8 py-16 mb-16">
+    <SEO title={`Delight your customers and grow your business`} />
+
+    <header className="px-8 py-16 md:py-32">
       <div className="prose md:prose-xl">
         <h1>
-          Delight Your Customers. <br /> Grow Your Business.
+          <Trans>
+            Delight Customers. <br /> Grow Your Business.
+          </Trans>
         </h1>
 
         <p className={"text-xl md:text-3xl"}>
-          We help businesses increase customer reach and satisfaction through
-          the use of modern web technologies.
+          <Trans>
+            We help businesses increase customer reach and satisfaction through
+            the use of modern technologies.
+          </Trans>
         </p>
-        <a className="cursor-pointer hover:text-primaryDark transition-colors duration-200 ease-in-out ">
-          Learn how tech can help you
-        </a>
       </div>
-    </div>
+    </header>
 
-    <div className="flex flex-col align-baseline md:flex-row mb-16 px-6 prose w-full max-w-full">
-      <div className={"prose prose-lg flex-1 pt-8"}>
-        <h2>What We Do</h2>
+    <section className={"mb-32"}>
+      <div className="p-8 prose prose-lg max-w-none">
+        <h2 className="text-center">What we do</h2>
       </div>
 
-      <div className="pr-6 flex-1">
-        <h3>Web Development</h3>
-        <p>We help you create beautiful and powerful websites , etc</p>
-      </div>
+      <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 prose w-full max-w-full">
+        <div className="pr-4 flex-1">
+          <h3>
+            <Trans>Web Development</Trans>
+          </h3>
+          <p>
+            <Trans>
+              Build beautiful, fast, and accessible websites to reach more
+              customers.
+            </Trans>
+          </p>
+          <Link to={"/web-development"}>
+            <Trans>Learn more</Trans>
+          </Link>
+        </div>
 
-      <div className="pr-6 flex-1">
-        <h3>Digital Marketing</h3>
-        <p>We help you build your online presence effectively,</p>
-      </div>
+        <div className="pr-4 flex-1">
+          <h3>
+            <Trans>E-commerce </Trans>
+          </h3>
+          <p>
+            <Trans>We help you build your online presence effectively</Trans>
+          </p>
+          <Link to={"/e-commerce"}>
+            <Trans>Learn more</Trans>
+          </Link>
+        </div>
 
-      <div className="pr-6 flex-1">
-        <h3>Graphic Design</h3>
-        <p>Create beautiful and seamless design, etc</p>
-      </div>
-    </div>
-
-    <div className="flex flex-col align-baseline md:flex-row mb-16 px-6 prose w-full max-w-full">
-      <div className="flex-1">
-        <div className={"prose prose-lg flex-1 pt-8 flex flex-col"}>
-          <h2>Portofolio</h2>
-          <a className="cursor-pointer hover:text-primaryDark transition-colors duration-200 ease-in-out ">
-            See More
-          </a>
+        <div className="pr-4 flex-1">
+          <h3>
+            <Trans>Web and mobile apps</Trans>
+          </h3>
+          <p>
+            <Trans>
+              Create digital tools to help improve your business and your
+              customer's workflows
+            </Trans>
+          </p>
+          <Link to={"/apps"}>
+            <Trans>Learn more</Trans>
+          </Link>
         </div>
       </div>
+    </section>
 
-      <div className="pr-6 flex-1">
-        <h3>Portfolio 1</h3>
-        <p>
-          Let parents see and keep track of their child&apos;s progress through
-          your school&apos;s curriculum in realtime.
-        </p>
+    <section>
+      <div className="p-8 prose prose-lg max-w-none">
+        <h2 className="text-center">
+          <Trans>Case Studies</Trans>
+        </h2>
       </div>
 
-      <div className="pr-6 flex-1">
-        <h3>Portfolio 2</h3>
-        <p>
-          Let parents see and keep track of their child&apos;s progress through
-          your school&apos;s curriculum in realtime.
-        </p>
-      </div>
+      <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 prose w-full max-w-full">
+        <div className="pr-4 flex-1">
+          <h3>
+            <Trans>Portfolio 1</Trans>
+          </h3>
+          <p>
+            <Trans>
+              Let parents see and keep track of their child&apos;s progress
+              through your school&apos;s curriculum in realtime.
+            </Trans>
+          </p>
+        </div>
 
-      <div className="pr-6 flex-1">
-        <h3>Portfolio 3</h3>
-        <p>
-          Allow parents to post observations at home about their children&apos;s
-          task, and see observations that teachers had created.
-        </p>
+        <div className="pr-4 flex-1">
+          <h3>
+            <Trans>Portfolio 2</Trans>
+          </h3>
+          <p>
+            <Trans>
+              Let parents see and keep track of their child&apos;s progress
+              through your school&apos;s curriculum in realtime.
+            </Trans>
+          </p>
+        </div>
+
+        <div className="pr-4 flex-1">
+          <h3>
+            <Trans>Portfolio 3</Trans>
+          </h3>
+          <p>
+            <Trans>
+              Allow parents to post observations at home about their
+              children&apos;s task, and see observations that teachers had
+              created.
+            </Trans>
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
   </Layout>
 )
 

@@ -6,13 +6,13 @@
  */
 
 import React, { FC } from "react"
-import Header from "./Header"
+import Navbar from "./Navbar"
 import "./global.css"
 
 const Layout: FC = ({ children }) => {
   return (
-    <div className="bg-no-repeat min-h-screen">
-      <Header />
+    <div className="relative min-h-screen">
+      <Navbar />
       <div className="max-w-6xl mx-auto relative">
         <main>{children}</main>
         <footer className="text-center flex items-center p-8 text-gray-700">

@@ -29,6 +29,35 @@ const plugins = [
   },
   `gatsby-plugin-image`,
   `gatsby-plugin-gatsby-cloud`,
+  {
+    resolve: `gatsby-theme-i18n`,
+    options: {
+      defaultLang: `en`,
+      configPath: require.resolve(`./i18n/config.json`),
+    },
+  },
+  {
+    resolve: `gatsby-theme-i18n-lingui`,
+    options: {
+      localeDir: `./i18n/lingui`,
+    },
+  },
+  {
+    resolve: `gatsby-plugin-typegen`,
+    options: {
+      outputPath: `src/__generated__/gatsby-types.d.ts`,
+      emitSchema: {
+        "src/__generated__/gatsby-schema.graphql": true,
+      },
+    },
+  },
+  {
+    resolve: `gatsby-plugin-portal`,
+    options: {
+      key: "portal",
+      id: "portal",
+    },
+  },
 ]
 
 // load production only plugins
@@ -41,6 +70,7 @@ module.exports = {
     title: `Ant Digital`,
     description: `We build performant and accessible websites that delights your customers.`,
     author: "@ant_digital",
+    siteUrl: `https://ant.gatsbyjs.io`,
   },
   plugins,
 }
