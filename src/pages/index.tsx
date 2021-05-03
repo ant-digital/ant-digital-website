@@ -89,9 +89,7 @@ const IndexPage: FC = () => (
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 prose w-full max-w-full">
         <div className="pr-4 flex-1">
-          <h3>
-            <Trans>Portfolio 1</Trans>
-          </h3>
+          <h3>Joyful Montessori</h3>
           <p>
             <Trans>
               Let parents see and keep track of their child&apos;s progress
@@ -101,9 +99,7 @@ const IndexPage: FC = () => (
         </div>
 
         <div className="pr-4 flex-1">
-          <h3>
-            <Trans>Portfolio 2</Trans>
-          </h3>
+          <h3>TimeTravelers</h3>
           <p>
             <Trans>
               Let parents see and keep track of their child&apos;s progress
@@ -113,9 +109,7 @@ const IndexPage: FC = () => (
         </div>
 
         <div className="pr-4 flex-1">
-          <h3>
-            <Trans>Portfolio 3</Trans>
-          </h3>
+          <h3>Obserfy</h3>
           <p>
             <Trans>
               Allow parents to post observations at home about their
