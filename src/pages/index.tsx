@@ -41,7 +41,7 @@ const IndexPage: FC = () => (
               customers.
             </Trans>
           </p>
-          <Link to={"/web-development"}>
+          <Link to={"/websites"}>
             <Trans>Learn more</Trans>
           </Link>
         </div>
@@ -68,7 +68,7 @@ const IndexPage: FC = () => (
               customer's workflows
             </Trans>
           </p>
-          <Link to={"/apps"}>
+          <Link to={"/web-applications"}>
             <Trans>Learn more</Trans>
           </Link>
         </div>
