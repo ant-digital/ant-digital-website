@@ -9,7 +9,7 @@ const IndexPage: FC = () => (
     <SEO title={`Delight your customers and grow your business`} />
 
     <header className="px-8 pb-32 pt-16 md:py-48">
-      <div className="prose md:prose-xl">
+      <div className="prose prose-lg md:prose-xl">
         <h1>
           <Trans>
             Delight Customers. <br /> Grow Your Business.
