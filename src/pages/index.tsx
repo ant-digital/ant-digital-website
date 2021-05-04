@@ -48,7 +48,7 @@ const IndexPage: FC = () => (
 
         <div className="pr-4 flex-1">
           <h3>
-            <Trans>E-commerce </Trans>
+            <Trans>E-commerce</Trans>
           </h3>
 
           <p>
