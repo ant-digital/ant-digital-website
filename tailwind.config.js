@@ -31,10 +31,10 @@ const colors = {
   surface: "white",
 }
 
-// Typography settings ======================================
-const serif = "EB Garamond, Georgia"
-const fontFamily = { serif }
-const heading = { fontFamily: serif }
+// Typography ======================================
+const sansSerif = "Poppins, sans-serif"
+const fontFamily = { sansSerif: sansSerif }
+const heading = { fontFamily: sansSerif }
 const typography = {
   DEFAULT: {
     css: {
