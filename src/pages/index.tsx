@@ -33,12 +33,12 @@ const IndexPage: FC = () => (
       <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 prose w-full max-w-full">
         <div className="pr-4 flex-1">
           <h3>
-            <Trans>Web Development</Trans>
+            <Trans>Business Websites</Trans>
           </h3>
           <p>
             <Trans>
-              Build beautiful, fast, and accessible websites to reach more
-              customers.
+              Showcase your business, build trust, and attract more customers
+              through beautifully designed websites.
             </Trans>
           </p>
           <Link to={"/websites"}>
@@ -50,9 +50,14 @@ const IndexPage: FC = () => (
           <h3>
             <Trans>E-commerce </Trans>
           </h3>
+
           <p>
-            <Trans>We help you build your online presence effectively</Trans>
+            <Trans>
+              Build fast e-commerce websites to build your own brand identity
+              and sell to more diverse customers.
+            </Trans>
           </p>
+
           <Link to={"/e-commerce"}>
             <Trans>Learn more</Trans>
           </Link>
@@ -60,12 +65,12 @@ const IndexPage: FC = () => (
 
         <div className="pr-4 flex-1">
           <h3>
-            <Trans>Web and mobile apps</Trans>
+            <Trans>Web applications</Trans>
           </h3>
           <p>
             <Trans>
-              Create digital tools to help improve your business and your
-              customer's workflows
+              Create digital tools that helps improve your productivity and/or
+              build better user experience for your customers.
             </Trans>
           </p>
           <Link to={"/web-applications"}>

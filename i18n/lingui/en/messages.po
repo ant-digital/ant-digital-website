@@ -17,15 +17,23 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/pages/index.tsx:113
+#: src/pages/index.tsx:118
 msgid "Allow parents to post observations at home about their children's task, and see observations that teachers had created."
 msgstr ""
 
 #: src/pages/index.tsx:37
-msgid "Build beautiful, fast, and accessible websites to reach more customers."
+#~ msgid "Build beautiful, fast, and accessible websites to reach more customers."
+#~ msgstr ""
+
+#: src/pages/index.tsx:53
+msgid "Build fast e-commerce websites to build your own brand identity and sell to more diverse customers."
 msgstr ""
 
-#: src/pages/index.tsx:79
+#: src/pages/index.tsx:34
+msgid "Business Websites"
+msgstr ""
+
+#: src/pages/index.tsx:84
 msgid "Case Studies"
 msgstr ""
 
@@ -37,9 +45,13 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: src/pages/index.tsx:64
-msgid "Create digital tools to help improve your business and your customer's workflows"
+#: src/pages/index.tsx:69
+msgid "Create digital tools that helps improve your productivity and/or build better user experience for your customers."
 msgstr ""
+
+#: src/pages/index.tsx:64
+#~ msgid "Create digital tools to help improve your business and your customer's workflows"
+#~ msgstr ""
 
 #: src/pages/index.tsx:12
 msgid "Delight Customers. <0/> Grow Your Business."
@@ -50,13 +62,13 @@ msgid "E-commerce"
 msgstr ""
 
 #: src/pages/index.tsx:43
-#: src/pages/index.tsx:55
-#: src/pages/index.tsx:70
+#: src/pages/index.tsx:60
+#: src/pages/index.tsx:75
 msgid "Learn more"
 msgstr ""
 
-#: src/pages/index.tsx:89
-#: src/pages/index.tsx:101
+#: src/pages/index.tsx:94
+#: src/pages/index.tsx:106
 msgid "Let parents see and keep track of their child's progress through your school's curriculum in realtime."
 msgstr ""
 
@@ -68,15 +80,15 @@ msgstr ""
 #~ msgid "Our School"
 #~ msgstr ""
 
-#: src/pages/index.tsx:86
+#: src/pages/index.tsx:91
 msgid "Portfolio 1"
 msgstr ""
 
-#: src/pages/index.tsx:98
+#: src/pages/index.tsx:103
 msgid "Portfolio 2"
 msgstr ""
 
-#: src/pages/index.tsx:110
+#: src/pages/index.tsx:115
 msgid "Portfolio 3"
 msgstr ""
 
@@ -84,18 +96,26 @@ msgstr ""
 msgid "Pricing"
 msgstr ""
 
+#: src/pages/index.tsx:37
+msgid "Showcase your business, build trust, and attract more customers through beautifully designed websites."
+msgstr ""
+
 #: src/pages/index.tsx:18
 msgid "We help businesses increase customer reach and satisfaction through the use of modern technologies."
 msgstr ""
 
 #: src/pages/index.tsx:52
-msgid "We help you build your online presence effectively"
-msgstr ""
+#~ msgid "We help you build your online presence effectively"
+#~ msgstr ""
 
 #: src/pages/index.tsx:34
-msgid "Web Development"
-msgstr ""
+#~ msgid "Web Development"
+#~ msgstr ""
 
 #: src/pages/index.tsx:61
-msgid "Web and mobile apps"
+#~ msgid "Web and mobile apps"
+#~ msgstr ""
+
+#: src/pages/index.tsx:66
+msgid "Web applications"
 msgstr ""
