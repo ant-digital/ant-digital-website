@@ -68,8 +68,8 @@ const plugins = [
       enableListener: true,
       custom: [
         {
-          name: ["EB Garamond"],
-          file: "/fonts/fonts.css",
+          name: ["YoungSerif"],
+          file: "/fonts/young-serif/stylesheet.css",
         },
       ],
     },

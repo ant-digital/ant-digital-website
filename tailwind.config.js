@@ -32,7 +32,7 @@ const colors = {
 }
 
 // Typography settings ======================================
-const serif = "EB Garamond, Georgia"
+const serif = "YoungSerif, Georgia"
 const fontFamily = { serif }
 const heading = { fontFamily: serif }
 const typography = {
