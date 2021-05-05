@@ -11,15 +11,13 @@ const IndexPage: FC = () => (
     <header className="px-8 pb-32 pt-16 md:py-48">
       <div className="prose prose-lg md:prose-xl">
         <h1>
-          <Trans>
-            Delight Customers. <br /> Grow Your Business.
-          </Trans>
+          <Trans>We build blazing fast websites and digital experiences.</Trans>
         </h1>
 
         <p className={"text-xl md:text-3xl"}>
           <Trans>
-            We help businesses increase customer reach and satisfaction through
-            the use of modern technologies.
+            We help your business increase customer reach and satisfaction
+            through the use of modern web technologies.
           </Trans>
         </p>
       </div>

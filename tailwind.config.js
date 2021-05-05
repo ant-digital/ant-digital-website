@@ -34,7 +34,10 @@ const colors = {
 // Typography settings ======================================
 const serif = "YoungSerif, Georgia"
 const fontFamily = { serif }
-const heading = { fontFamily: serif }
+const heading = {
+  fontFamily: serif,
+  fontWeight: "normal",
+}
 const typography = {
   DEFAULT: {
     css: {
@@ -56,7 +59,7 @@ module.exports = {
     fontFamily,
     extend: {
       colors,
-      typography
+      typography,
     },
   },
   plugins,
