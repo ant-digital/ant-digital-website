@@ -15,10 +15,10 @@ const SideBar = () => {
     <>
       <Button
         label={"Open menu"}
-        className={"text-sm !p-3 ml-4 lg:hidden"}
+        className={"text-sm !p-2 lg:hidden !ring-0"}
         onClick={toggleVisibility}
       >
-        <img src={"/icons/menu/hamburger.svg"} className="w-5 h-5" alt={""} />
+        <img src={"/icons/menu/hamburger.svg"} className="w-6 h-6" alt={""} />
       </Button>
 
       <Portal>
@@ -43,7 +43,7 @@ const SideBar = () => {
               <img
                 src="/logo.svg"
                 className={"w-4 "}
-                alt={"Joyful Montessori"}
+                alt={"Ant Digital"}
               />
             </Link>
             <Button
