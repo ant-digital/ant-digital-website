@@ -26,7 +26,7 @@ const plugins = [
     options: {
       postCssPlugins: [
         require("tailwindcss")("./tailwind.config.js"),
-        require("autoprefixer")
+        require("autoprefixer"),
       ],
     },
   },
@@ -59,6 +59,19 @@ const plugins = [
     options: {
       key: "portal",
       id: "portal",
+    },
+  },
+  {
+    resolve: "gatsby-omni-font-loader",
+    options: {
+      mode: "async",
+      enableListener: true,
+      custom: [
+        {
+          name: ["YoungSerif"],
+          file: "/fonts/young-serif/stylesheet.css",
+        },
+      ],
     },
   },
 ]

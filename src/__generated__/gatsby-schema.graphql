@@ -731,6 +731,9 @@ type SitePluginPluginOptions {
   emitSchema: SitePluginPluginOptionsEmitSchema
   key: String
   id: String
+  mode: String
+  enableListener: Boolean
+  custom: [SitePluginPluginOptionsCustom]
   pathCheck: Boolean
   allExtensions: Boolean
   isTSX: Boolean
@@ -743,6 +746,11 @@ type SitePluginPluginOptionsPostCssPlugins {
 
 type SitePluginPluginOptionsEmitSchema {
   src___generated___gatsby_schema_graphql: Boolean
+}
+
+type SitePluginPluginOptionsCustom {
+  name: [String]
+  file: String
 }
 
 type SitePluginPackageJson {
@@ -1818,6 +1826,9 @@ input SitePluginPluginOptionsFilterInput {
   emitSchema: SitePluginPluginOptionsEmitSchemaFilterInput
   key: StringQueryOperatorInput
   id: StringQueryOperatorInput
+  mode: StringQueryOperatorInput
+  enableListener: BooleanQueryOperatorInput
+  custom: SitePluginPluginOptionsCustomFilterListInput
   pathCheck: BooleanQueryOperatorInput
   allExtensions: BooleanQueryOperatorInput
   isTSX: BooleanQueryOperatorInput
@@ -1834,6 +1845,15 @@ input SitePluginPluginOptionsPostCssPluginsFilterInput {
 
 input SitePluginPluginOptionsEmitSchemaFilterInput {
   src___generated___gatsby_schema_graphql: BooleanQueryOperatorInput
+}
+
+input SitePluginPluginOptionsCustomFilterListInput {
+  elemMatch: SitePluginPluginOptionsCustomFilterInput
+}
+
+input SitePluginPluginOptionsCustomFilterInput {
+  name: StringQueryOperatorInput
+  file: StringQueryOperatorInput
 }
 
 input SitePluginPackageJsonFilterInput {
@@ -2058,6 +2078,11 @@ enum SitePageFieldsEnum {
   pluginCreator___pluginOptions___emitSchema___src___generated___gatsby_schema_graphql
   pluginCreator___pluginOptions___key
   pluginCreator___pluginOptions___id
+  pluginCreator___pluginOptions___mode
+  pluginCreator___pluginOptions___enableListener
+  pluginCreator___pluginOptions___custom
+  pluginCreator___pluginOptions___custom___name
+  pluginCreator___pluginOptions___custom___file
   pluginCreator___pluginOptions___pathCheck
   pluginCreator___pluginOptions___allExtensions
   pluginCreator___pluginOptions___isTSX
@@ -2689,6 +2714,11 @@ enum SitePluginFieldsEnum {
   pluginOptions___emitSchema___src___generated___gatsby_schema_graphql
   pluginOptions___key
   pluginOptions___id
+  pluginOptions___mode
+  pluginOptions___enableListener
+  pluginOptions___custom
+  pluginOptions___custom___name
+  pluginOptions___custom___file
   pluginOptions___pathCheck
   pluginOptions___allExtensions
   pluginOptions___isTSX
