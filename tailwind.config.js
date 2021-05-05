@@ -1,4 +1,5 @@
 const plugin = require("tailwindcss/plugin")
+const tailwindColors = require('tailwindcss/colors')
 
 // Plugins ============================================
 const plugins = [
@@ -23,12 +24,18 @@ const plugins = [
 
 // Colors =================================================
 const colors = {
+  ...tailwindColors,
   primary: "#45A6FF",
   onPrimary: "black",
   primaryDark: "#3f90d9",
   onPrimaryDark: "white",
 
   surface: "white",
+}
+
+const boxShadow = {
+  skeuomorphic:
+    "0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%), inset 0 -2px 6px 0 rgb(10 37 64 / 35%)",
 }
 
 // Typography settings ======================================
@@ -57,9 +64,10 @@ module.exports = {
   purge: ["./src/**/*.tsx"],
   theme: {
     fontFamily,
+    colors,
     extend: {
-      colors,
       typography,
+      boxShadow,
     },
   },
   plugins,
