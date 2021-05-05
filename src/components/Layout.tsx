@@ -17,8 +17,8 @@ const Layout: FC = ({ children }) => {
         <main>{children}</main>
       </div>
 
-      <footer className="p-8 text-gray-700 border-t">
-        <div className="max-w-6xl mx-auto relative px-8">
+      <footer className="text-gray-700 border-t">
+        <div className="max-w-6xl mx-auto relative p-8">
           © {new Date().getFullYear()} Ant Digital
         </div>
       </footer>
