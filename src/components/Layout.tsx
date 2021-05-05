@@ -15,10 +15,13 @@ const Layout: FC = ({ children }) => {
       <Navbar />
       <div className="max-w-6xl mx-auto relative">
         <main>{children}</main>
-        <footer className="text-center flex items-center p-8 text-gray-700">
-          <div>© {new Date().getFullYear()} Ant Digital</div>
-        </footer>
       </div>
+
+      <footer className="p-8 text-gray-700 border-t">
+        <div className="max-w-6xl mx-auto relative px-8">
+          © {new Date().getFullYear()} Ant Digital
+        </div>
+      </footer>
     </div>
   )
 }
