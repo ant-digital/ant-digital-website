@@ -22,6 +22,18 @@ const SideBar = () => {
       </Button>
 
       <Portal>
+        <div
+          className={`
+            fixed top-0 bottom-0 left-0 bg-0 bg-black w-full h-full z-30 
+            transition ease-in-out
+            ${
+              visible
+                ? "bg-opacity-40 backdrop-filter backdrop-blur"
+                : "bg-opacity-0 pointer-events-none"
+            }
+          `}
+          onClick={toggleVisibility}
+        />
         <aside
           className={`
             z-40
@@ -40,14 +52,10 @@ const SideBar = () => {
               className="sm:text-md md:text-xl flex items-center ml-4 text-sm"
               aria-label="Home"
             >
-              <img
-                src="/logo.svg"
-                className={"w-4 "}
-                alt={"Ant Digital"}
-              />
+              <img src="/logo-full.svg" className={"h-6"} alt={"Ant Digital"} />
             </Link>
             <Button
-              className="text-sm !px-0 m-4 text-xl leading-tight ml-auto rounded-[100px] w-10 h-10"
+              className="!p-0 m-4 text-xl leading-tight ml-auto rounded-[100px] w-10 h-10 !text-black"
               onClick={toggleVisibility}
             >
               &#x2715;
