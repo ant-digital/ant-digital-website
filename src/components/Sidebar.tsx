@@ -15,7 +15,7 @@ const SideBar = () => {
     <>
       <Button
         label={"Open menu"}
-        className={"text-sm !p-0 lg:hidden !ring-0"}
+        className={"text-sm !p-2 lg:hidden !ring-0"}
         onClick={toggleVisibility}
       >
         <img src={"/icons/menu/hamburger.svg"} className="w-6 h-6" alt={""} />
