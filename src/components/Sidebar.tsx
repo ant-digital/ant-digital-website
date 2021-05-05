@@ -79,7 +79,7 @@ const SideBar = () => {
           />
 
           <div className="flex flex-wrap m-4 mt-auto absolute bottom-0 left-0 right-0">
-            <p className={"w-full mb-4 opacity-50"}>Languages</p>
+            <p className={"w-full mb-4 opacity-70"}>Languages</p>
             <Link
               to={"/id"}
               className="block md:ml-8 mb-2 font-bold opacity-70 hover:underline mr-8"
