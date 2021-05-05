@@ -10,7 +10,7 @@ const IndexPage: FC = () => (
 
     <header className="px-8 pb-32 pt-16 md:py-48">
       <div className="prose prose-lg md:prose-xl">
-        <h1 className={"!text-gray-400"}>
+        <h1 className={"!text-gray-500"}>
           <Trans>
             We build <span className={"text-black"}>blazing fast</span> websites
             and <span className={"text-black"}>digital experiences.</span>
