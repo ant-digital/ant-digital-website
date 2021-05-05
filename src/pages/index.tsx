@@ -28,7 +28,7 @@ const IndexPage: FC = () => (
 
     <section className={"mb-32"}>
       <div className="p-8 prose prose-lg max-w-none">
-        <h2 className="text-center">What do you need?</h2>
+        <h2 className="text-center">Work with us</h2>
       </div>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 prose w-full max-w-full px-4">
