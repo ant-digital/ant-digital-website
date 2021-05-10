@@ -8,7 +8,7 @@
 import React, { FC } from "react"
 import Navbar from "./Navbar"
 import "./global.css"
-import { Link } from "gatsby"
+import { LocalizedLink as Link } from "gatsby-theme-i18n"
 import { Trans } from "@lingui/macro"
 
 const Layout: FC = ({ children }) => {

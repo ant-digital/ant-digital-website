@@ -13,9 +13,12 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/components/Layout.tsx:40
 #: src/components/Sidebar.tsx:44
 msgid "About"
+msgstr ""
+
+#: src/components/Layout.tsx:40
+msgid "About Us"
 msgstr ""
 
 #: src/pages/index.tsx:118
@@ -49,8 +52,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/pages/index.tsx:38
-msgid "Come work with us"
-msgstr ""
+#~ msgid "Come work with us"
+#~ msgstr ""
 
 #: src/components/Layout.tsx:37
 msgid "Company"
@@ -113,6 +116,10 @@ msgstr ""
 #~ msgid "Our School"
 #~ msgstr ""
 
+#: src/pages/index.tsx:38
+msgid "Our services"
+msgstr ""
+
 #: src/pages/index.tsx:91
 #~ msgid "Portfolio 1"
 #~ msgstr ""
@@ -131,11 +138,15 @@ msgid "Pricing"
 msgstr ""
 
 #: src/pages/index.tsx:52
-msgid "Projects"
-msgstr ""
+#~ msgid "Projects"
+#~ msgstr ""
 
 #: src/pages/index.tsx:44
 msgid "Reach more customers"
+msgstr ""
+
+#: src/pages/index.tsx:52
+msgid "Recent projects"
 msgstr ""
 
 #: src/components/Layout.tsx:22

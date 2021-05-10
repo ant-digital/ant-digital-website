@@ -1,6 +1,6 @@
 import Button from "./Button"
 import React, { FC, useState } from "react"
-import { Link } from "gatsby"
+import { LocalizedLink as Link } from "gatsby-theme-i18n"
 import { t, Trans } from "@lingui/macro"
 import Portal from "./Portal"
 

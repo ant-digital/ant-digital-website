@@ -1,7 +1,7 @@
 import React, { FC } from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
+import { LocalizedLink as Link } from "gatsby-theme-i18n"
 import { t, Trans } from "@lingui/macro"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -52,8 +52,8 @@ const IndexPage: FC = () => (
     </header>
 
     <section className={"mb-32"}>
-      <h2 className="text-center my-16 font-serif text-3xl">
-        <Trans>Come work with us</Trans>
+      <h2 className="p-8 font-serif text-4xl">
+        <Trans>Our services</Trans>
       </h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 w-full max-w-full px-4">
@@ -84,8 +84,8 @@ const IndexPage: FC = () => (
     </section>
 
     <section>
-      <h2 className="text-center my-16 font-serif text-3xl">
-        <Trans>Projects</Trans>
+      <h2 className="p-8 mb-8 font-serif text-4xl">
+        <Trans>Recent projects</Trans>
       </h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 w-full max-w-full">
