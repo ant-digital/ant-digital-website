@@ -12,8 +12,8 @@ const plugins = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Ant Digital`,
-      short_name: `Ant Digital`,
+      name: `ant digital`,
+      short_name: `ant digital`,
       start_url: `/`,
       background_color: `white`,
       theme_color: `#45A6FF`,

@@ -2,7 +2,31 @@ import React, { FC } from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
-import { Trans } from "@lingui/macro"
+import { t, Trans } from "@lingui/macro"
+
+const Services: FC<{
+  to: string
+  title: string
+  description: string
+  cta: string
+  background: string
+}> = ({ to, description, cta, title, background }) => (
+  <Link
+    to={to}
+    className={`prose p-8 flex-1 !text-white rounded-xl m-4 shadow-skeuomorphic !no-underline !text-decoration-none ${background}`}
+  >
+    <h3 className={"!mt-0 !text-white"}>{title}</h3>
+    <p>{description}</p>
+    <p className={"!text-white flex items-center !my-0"}>
+      {cta}
+      <img
+        src="/icons/arrow/short_right_white.svg"
+        className="ml-auto !my-0"
+        alt=""
+      />
+    </p>
+  </Link>
+)
 
 const IndexPage: FC = () => (
   <Layout>
@@ -27,70 +51,42 @@ const IndexPage: FC = () => (
     </header>
 
     <section className={"mb-32"}>
-      <div className="p-8 prose prose-lg max-w-none">
-        <h2 className="text-center">Work with us</h2>
-      </div>
+      <h2 className="text-center my-8 font-serif text-3xl">Work with us</h2>
 
-      <div className="flex flex-col align-baseline md:flex-row mb-16 prose w-full max-w-full px-4">
-        <div className="p-8 flex-1 text-white rounded-xl !m-4 shadow-skeuomorphic bg-gradient-to-br from-blue-700 to-purple-700">
-          <h3 className={"!mt-0 !text-white"}>
-            <Trans>Business Websites</Trans>
-          </h3>
-          <p>
-            <Trans>
-              Showcase your business, build trust, and attract more customers
-              through beautifully designed websites.
-            </Trans>
-          </p>
-          <Link to={"/websites"} className={"!text-white"}>
-            <Trans>Build your brand</Trans>
-          </Link>
-        </div>
+      <div className="flex flex-col align-baseline md:flex-row mb-16 w-full max-w-full px-4">
+        <Services
+          to={"/e-commerce"}
+          background={"bg-gradient-to-br from-blue-700 to-purple-700"}
+          title={t`Business Websites`}
+          description={t`Showcase your business, build trust, and attract more customers through beautifully designed websites.`}
+          cta={t`Build your brand`}
+        />
 
-        <div className="p-8 flex-1 text-white rounded-xl m-4 shadow-skeuomorphic bg-gradient-to-br from-emerald-600 to-green-700">
-          <h3 className={"!mt-0 !text-white"}>
-            <Trans>E-commerce</Trans>
-          </h3>
+        <Services
+          to={"/e-commerce"}
+          background={"bg-gradient-to-br from-emerald-600 to-green-700"}
+          title={t`E-commerce`}
+          description={t`Build fast e-commerce websites to build your own brand identity and sell to more diverse customers.`}
+          cta={t`Reach more customers`}
+        />
 
-          <p>
-            <Trans>
-              Build fast e-commerce websites to build your own brand identity
-              and sell to more diverse customers.
-            </Trans>
-          </p>
-
-          <Link to={"/e-commerce"} className={"!text-white"}>
-            <Trans>Reach more customers</Trans>
-          </Link>
-        </div>
-
-        <div className="p-8 flex-1 text-white rounded-xl !m-4 shadow-skeuomorphic bg-gradient-to-br from-rose-500 to-pink-700">
-          <h3 className={"!mt-0 !text-white"}>
-            <Trans>Web applications</Trans>
-          </h3>
-          <p>
-            <Trans>
-              Create digital tools that helps improve your productivity and/or
-              build better user experience for your customers.
-            </Trans>
-          </p>
-          <Link to={"/web-applications"} className={"!text-white font-bold"}>
-            <Trans>Create better tools</Trans>
-          </Link>
-        </div>
+        <Services
+          to={"/web-applications"}
+          background={"bg-gradient-to-br from-rose-500 to-pink-700"}
+          title={t`Web applications`}
+          description={t`Create digital tools that helps improve your productivity and/or build better user experience for your customers.`}
+          cta={t`Create better tools`}
+        />
       </div>
     </section>
 
     <section>
-      <div className="p-8 prose prose-lg max-w-none">
-        <h2 className="text-center">
-          <Trans>Case Studies</Trans>
-        </h2>
-      </div>
+      <h2 className="text-center my-8 font-serif text-3xl">Projects</h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 prose w-full max-w-full">
         <div className="pr-4 flex-1">
           <h3>Joyful Montessori</h3>
+          <p className={"text-blue-700 bold font-serif"}>Business Website</p>
           <p>
             <Trans>
               Let parents see and keep track of their child&apos;s progress
@@ -101,6 +97,7 @@ const IndexPage: FC = () => (
 
         <div className="pr-4 flex-1">
           <h3>TimeTravelers</h3>
+          <p className={"text-emerald-700 bold font-serif"}>E-commerce</p>
           <p>
             <Trans>
               Let parents see and keep track of their child&apos;s progress
@@ -111,6 +108,7 @@ const IndexPage: FC = () => (
 
         <div className="pr-4 flex-1">
           <h3>Obserfy</h3>
+          <p className={"text-red-700 bold font-serif"}>Web Application</p>
           <p>
             <Trans>
               Allow parents to post observations at home about their
