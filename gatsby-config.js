@@ -8,7 +8,16 @@ const plugins = [
     },
   },
   `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
+  {
+    resolve: `gatsby-plugin-sharp`,
+    options: {
+      // Defaults used for gatsbyImageData and StaticImage
+      defaults: {
+        formats: ["auto", "webp", "avif"],
+        placeholder: "blurred",
+      },
+    },
+  },
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
