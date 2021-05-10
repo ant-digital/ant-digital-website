@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import { t, Trans } from "@lingui/macro"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Services: FC<{
   to: string
@@ -17,7 +18,7 @@ const Services: FC<{
   >
     <h3 className={"!mt-0 !text-white"}>{title}</h3>
     <p>{description}</p>
-    <p className={"!text-white flex items-center !my-0"}>
+    <p className={"!text-white flex items-center !my-0 font-serif opacity-90"}>
       {cta}
       <img
         src="/icons/arrow/short_right_white.svg"
@@ -83,39 +84,68 @@ const IndexPage: FC = () => (
     <section>
       <h2 className="text-center my-8 font-serif text-3xl">Projects</h2>
 
-      <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 prose w-full max-w-full">
-        <div className="pr-4 flex-1">
-          <h3>Joyful Montessori</h3>
-          <p className={"text-blue-700 bold font-serif"}>Business Website</p>
-          <p>
-            <Trans>
-              Let parents see and keep track of their child&apos;s progress
-              through your school&apos;s curriculum in realtime.
-            </Trans>
-          </p>
+      <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 w-full max-w-full">
+        <div className={"md:pr-8 flex-1"}>
+          <StaticImage
+            src="../images/projects/joyful/home.png"
+            alt={""}
+            imgClassName="rounded-xl border"
+            objectFit={"contain"}
+            placeholder={"blurred"}
+          />
+
+          <div className="bg-gradient-to-t from-white via-white pt-24 -mt-32 z-10 relative prose">
+            <h3>Joyful Montessori</h3>
+            <p className={"text-blue-700 bold font-serif"}>Business Websites</p>
+            <p>
+              <Trans>
+                Let parents see and keep track of their child&apos;s progress
+                through your school&apos;s curriculum in realtime.
+              </Trans>
+            </p>
+          </div>
         </div>
 
-        <div className="pr-4 flex-1">
-          <h3>TimeTravelers</h3>
-          <p className={"text-emerald-700 bold font-serif"}>E-commerce</p>
-          <p>
-            <Trans>
-              Let parents see and keep track of their child&apos;s progress
-              through your school&apos;s curriculum in realtime.
-            </Trans>
-          </p>
+        <div className={"md:pr-8 flex-1"}>
+          <StaticImage
+            src="../images/projects/timetravelers/home.png"
+            alt={""}
+            imgClassName="rounded-xl border"
+            objectFit={"contain"}
+            placeholder={"blurred"}
+          />
+
+          <div className="bg-gradient-to-t from-white via-white pt-24 -mt-32 z-10 relative prose">
+            <h3>Timetravelers</h3>
+            <p className={"text-emerald-700 bold font-serif"}>E-commerce</p>
+            <p>
+              <Trans>
+                Let parents see and keep track of their child&apos;s progress
+                through your school&apos;s curriculum in realtime.
+              </Trans>
+            </p>
+          </div>
         </div>
 
-        <div className="pr-4 flex-1">
-          <h3>Obserfy</h3>
-          <p className={"text-red-700 bold font-serif"}>Web Application</p>
-          <p>
-            <Trans>
-              Allow parents to post observations at home about their
-              children&apos;s task, and see observations that teachers had
-              created.
-            </Trans>
-          </p>
+        <div className={"md:pr-8 flex-1"}>
+          <StaticImage
+            src="../images/projects/obserfy/home.png"
+            alt={""}
+            imgClassName="rounded-xl border"
+            objectFit={"contain"}
+            placeholder={"blurred"}
+          />
+
+          <div className="bg-gradient-to-t from-white via-white pt-24 -mt-32 z-10 relative prose">
+            <h3>Obserfy</h3>
+            <p className={"text-red-700 bold font-serif"}>Web applications</p>
+            <p>
+              <Trans>
+                Let parents see and keep track of their child&apos;s progress
+                through your school&apos;s curriculum in realtime.
+              </Trans>
+            </p>
+          </div>
         </div>
       </div>
     </section>

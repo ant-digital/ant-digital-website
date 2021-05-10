@@ -15,12 +15,16 @@ const Pricing = () => {
           <div className={"flex-2 prose"}>
             <h2 className={"!mt-0 mr-auto"}>Business Websites</h2>
             <p>
-              Build blazing fast informative websites that helps your customers
+              Build beautiful informative websites that helps your customers
               understand your business/company/product.
             </p>
+
+            <p>
+              Basic package includes:
+            </p>
             <ul>
-              <li>Feature 1</li>
-              <li>Feature 2</li>
+              <li>Homepage</li>
+              <li>About Us</li>
               <li>Feature 3</li>
               <li>Feature 4</li>
             </ul>
@@ -39,10 +43,6 @@ const Pricing = () => {
         <div className={"bg-white rounded-xl p-8 w-full lg:flex"}>
           <div className={"flex-2 prose"}>
             <h2 className={"!mt-0 mr-auto"}>E-commerce</h2>
-            <p>
-              Build blazing fast informative websites that helps your customers
-              understand your business/company/product.
-            </p>
             <ul>
               <li>Feature 1</li>
               <li>Feature 2</li>
