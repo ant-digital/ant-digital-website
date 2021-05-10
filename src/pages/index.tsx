@@ -105,7 +105,7 @@ const IndexPage: FC = () => (
             </p>
             <p>
               <Trans>
-                Joyful is Montessori preschool that wants an improved and more
+                Joyful is a Montessori preschool that wants an improved and more
                 consistent branding and digital presence.
               </Trans>
             </p>
@@ -128,8 +128,8 @@ const IndexPage: FC = () => (
             </p>
             <p>
               <Trans>
-                Timetravelers is tour and travel agency that wants to expand to
-                the digital market.
+                Timetravelers is a tour and travel agency that wants to expand
+                to the digital market.
               </Trans>
             </p>
           </div>

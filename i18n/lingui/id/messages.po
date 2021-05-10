@@ -13,39 +13,62 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/components/Sidebar.tsx:39
+#: src/components/Layout.tsx:40
+#: src/components/Sidebar.tsx:44
 msgid "About"
 msgstr ""
 
 #: src/pages/index.tsx:118
-msgid "Allow parents to post observations at home about their children's task, and see observations that teachers had created."
-msgstr ""
+#~ msgid "Allow parents to post observations at home about their children's task, and see observations that teachers had created."
+#~ msgstr ""
 
 #: src/pages/index.tsx:37
 #~ msgid "Build beautiful, fast, and accessible websites to reach more customers."
 #~ msgstr ""
 
-#: src/pages/index.tsx:53
+#: src/pages/index.tsx:44
 msgid "Build fast e-commerce websites to build your own brand identity and sell to more diverse customers."
 msgstr ""
 
-#: src/pages/index.tsx:34
+#: src/pages/index.tsx:42
+msgid "Build your brand"
+msgstr ""
+
+#: src/components/Layout.tsx:25
+#: src/pages/index.tsx:42
+#: src/pages/index.tsx:62
 msgid "Business Websites"
 msgstr ""
 
 #: src/pages/index.tsx:84
-msgid "Case Studies"
-msgstr ""
+#~ msgid "Case Studies"
+#~ msgstr ""
 
 #: src/components/Sidebar.tsx:45
 #~ msgid "Classes"
 #~ msgstr ""
 
-#: src/components/Sidebar.tsx:40
+#: src/pages/index.tsx:38
+msgid "Come work with us"
+msgstr ""
+
+#: src/components/Layout.tsx:37
+msgid "Company"
+msgstr ""
+
+#: src/components/Sidebar.tsx:45
 msgid "Contact"
 msgstr ""
 
-#: src/pages/index.tsx:69
+#: src/components/Layout.tsx:46
+msgid "Contact Us"
+msgstr ""
+
+#: src/pages/index.tsx:46
+msgid "Create better tools"
+msgstr ""
+
+#: src/pages/index.tsx:46
 msgid "Create digital tools that helps improve your productivity and/or build better user experience for your customers."
 msgstr ""
 
@@ -54,59 +77,94 @@ msgstr ""
 #~ msgstr ""
 
 #: src/pages/index.tsx:12
-msgid "Delight Customers. <0/> Grow Your Business."
+#~ msgid "Delight Customers. <0/> Grow Your Business."
+#~ msgstr ""
+
+#: src/components/Layout.tsx:28
+#: src/pages/index.tsx:44
+#: src/pages/index.tsx:79
+msgid "E-commerce"
 msgstr ""
 
-#: src/pages/index.tsx:49
-msgid "E-commerce"
+#: src/pages/index.tsx:65
+msgid "Joyful is a Montessori preschool that wants an improved and more consistent branding and digital presence."
 msgstr ""
 
 #: src/pages/index.tsx:43
 #: src/pages/index.tsx:60
 #: src/pages/index.tsx:75
-msgid "Learn more"
-msgstr ""
+#~ msgid "Learn more"
+#~ msgstr ""
 
 #: src/pages/index.tsx:94
 #: src/pages/index.tsx:106
-msgid "Let parents see and keep track of their child's progress through your school's curriculum in realtime."
-msgstr ""
+#~ msgid "Let parents see and keep track of their child's progress through your school's curriculum in realtime."
+#~ msgstr ""
 
 #: src/components/Sidebar.tsx:43
 #~ msgid "Montessori"
 #~ msgstr ""
+
+#: src/pages/index.tsx:99
+msgid "Obserfy is a software that helps Montessori schools to keep track of their students data and share them with parents."
+msgstr ""
 
 #: src/components/Sidebar.tsx:44
 #~ msgid "Our School"
 #~ msgstr ""
 
 #: src/pages/index.tsx:91
-msgid "Portfolio 1"
-msgstr ""
+#~ msgid "Portfolio 1"
+#~ msgstr ""
 
 #: src/pages/index.tsx:103
-msgid "Portfolio 2"
-msgstr ""
+#~ msgid "Portfolio 2"
+#~ msgstr ""
 
 #: src/pages/index.tsx:115
-msgid "Portfolio 3"
-msgstr ""
+#~ msgid "Portfolio 3"
+#~ msgstr ""
 
-#: src/components/Sidebar.tsx:38
+#: src/components/Layout.tsx:43
+#: src/components/Sidebar.tsx:43
 msgid "Pricing"
 msgstr ""
 
-#: src/pages/index.tsx:37
+#: src/pages/index.tsx:52
+msgid "Projects"
+msgstr ""
+
+#: src/pages/index.tsx:44
+msgid "Reach more customers"
+msgstr ""
+
+#: src/components/Layout.tsx:22
+msgid "Services"
+msgstr ""
+
+#: src/pages/index.tsx:42
 msgid "Showcase your business, build trust, and attract more customers through beautifully designed websites."
 msgstr ""
 
-#: src/pages/index.tsx:18
-msgid "We help businesses increase customer reach and satisfaction through the use of modern technologies."
+#: src/pages/index.tsx:82
+msgid "Timetravelers is a tour and travel agency that wants to expand to the digital market."
 msgstr ""
+
+#: src/pages/index.tsx:21
+msgid "We build <0>blazing fast</0> websites and <1>digital experiences.</1>"
+msgstr ""
+
+#: src/pages/index.tsx:18
+#~ msgid "We help businesses increase customer reach and satisfaction through the use of modern technologies."
+#~ msgstr ""
 
 #: src/pages/index.tsx:52
 #~ msgid "We help you build your online presence effectively"
 #~ msgstr ""
+
+#: src/pages/index.tsx:28
+msgid "We help your business increase customer reach and satisfaction through the use of modern web technologies."
+msgstr ""
 
 #: src/pages/index.tsx:34
 #~ msgid "Web Development"
@@ -116,6 +174,8 @@ msgstr ""
 #~ msgid "Web and mobile apps"
 #~ msgstr ""
 
-#: src/pages/index.tsx:66
+#: src/components/Layout.tsx:31
+#: src/pages/index.tsx:46
+#: src/pages/index.tsx:96
 msgid "Web applications"
 msgstr ""
