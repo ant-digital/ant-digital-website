@@ -21,7 +21,7 @@ const Layout: FC = ({ children }) => {
 
       <footer className="text-gray-700 border-t pt-8">
         <div className={"max-w-6xl mx-auto px-8 mb-4 md:flex items-center"}>
-          <p className={"font-serif pb-4"}>
+          <p className={"font-serif pb-4 w-20"}>
             <Trans>Services</Trans>
           </p>
           <Link to={"/websites"} className={"md:ml-8 pb-4 block"}>
@@ -36,11 +36,11 @@ const Layout: FC = ({ children }) => {
         </div>
 
         <div className={"max-w-6xl mx-auto px-8 md:flex items-center"}>
-          <p className={"font-serif pb-4"}>
+          <p className={"font-serif pb-4 w-20"}>
             <Trans>Company</Trans>
           </p>
           <Link to={"/about"} className={"md:ml-8 pb-4 block"}>
-            <Trans>About</Trans>
+            <Trans>About Us</Trans>
           </Link>
           <Link to={"/pricing"} className={"md:ml-8 pb-4 block"}>
             <Trans>Pricing</Trans>
