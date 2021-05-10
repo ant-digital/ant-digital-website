@@ -20,6 +20,7 @@
     "gatsby-plugin-portal": "^1.0.7",
     "gatsby-plugin-postcss": "^4.4.0",
     "gatsby-plugin-preact": "^5.4.0",
+    "gatsby-plugin-preload-fonts": "^2.4.0",
     "gatsby-plugin-react-helmet": "^4.4.0",
     "gatsby-plugin-sharp": "^3.4.0",
     "gatsby-plugin-typegen": "^2.2.4",
@@ -58,7 +59,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "lingui:extract": "lingui extract",
     "lingui:compile": "lingui compile",
-    "lingui": "yarn lingui:extract && yarn lingui:compile"
+    "lingui": "yarn lingui:extract && yarn lingui:compile",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "repository": {
     "type": "git",

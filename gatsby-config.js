@@ -83,6 +83,7 @@ const plugins = [
       ],
     },
   },
+  `gatsby-plugin-preload-fonts`,
 ]
 
 // load production only plugins
