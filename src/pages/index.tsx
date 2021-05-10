@@ -52,7 +52,9 @@ const IndexPage: FC = () => (
     </header>
 
     <section className={"mb-32"}>
-      <h2 className="text-center my-16 font-serif text-3xl">Work with us</h2>
+      <h2 className="text-center my-16 font-serif text-3xl">
+        <Trans>Come work with us</Trans>
+      </h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 w-full max-w-full px-4">
         <Services
@@ -82,7 +84,9 @@ const IndexPage: FC = () => (
     </section>
 
     <section>
-      <h2 className="text-center my-16 font-serif text-3xl">Projects</h2>
+      <h2 className="text-center my-16 font-serif text-3xl">
+        <Trans>Projects</Trans>
+      </h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 w-full max-w-full">
         <div className={"md:pr-8 flex-1 mb-16"}>
@@ -96,11 +100,13 @@ const IndexPage: FC = () => (
 
           <div className="relative prose mt-4">
             <h3>Joyful Montessori</h3>
-            <p className={"text-blue-700 bold font-serif"}>Business Websites</p>
+            <p className={"text-blue-700 bold font-serif"}>
+              <Trans>Business Websites</Trans>
+            </p>
             <p>
               <Trans>
-                Let parents see and keep track of their child&apos;s progress
-                through your school&apos;s curriculum in realtime.
+                Joyful is Montessori preschool that wants an improved and more
+                consistent branding and digital presence.
               </Trans>
             </p>
           </div>
@@ -117,11 +123,13 @@ const IndexPage: FC = () => (
 
           <div className="relative prose mt-4">
             <h3>Timetravelers</h3>
-            <p className={"text-emerald-700 bold font-serif"}>E-commerce</p>
+            <p className={"text-emerald-700 bold font-serif"}>
+              <Trans>E-commerce </Trans>
+            </p>
             <p>
               <Trans>
-                Let parents see and keep track of their child&apos;s progress
-                through your school&apos;s curriculum in realtime.
+                Timetravelers is tour and travel agency that wants to expand to
+                the digital market.
               </Trans>
             </p>
           </div>
@@ -138,11 +146,13 @@ const IndexPage: FC = () => (
 
           <div className="relative prose mt-4">
             <h3>Obserfy</h3>
-            <p className={"text-red-700 bold font-serif"}>Web applications</p>
+            <p className={"text-red-700 bold font-serif"}>
+              <Trans>Web applications</Trans>
+            </p>
             <p>
               <Trans>
-                Let parents see and keep track of their child&apos;s progress
-                through your school&apos;s curriculum in realtime.
+                Obserfy is a software that helps Montessori schools to keep
+                track of their students data and share them with parents.
               </Trans>
             </p>
           </div>
