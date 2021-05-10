@@ -127,7 +127,7 @@ const IndexPage: FC = () => (
           </div>
         </div>
 
-        <div className={"md:pr-8 flex-1 mb-16"}>
+        <div className={"flex-1 mb-16"}>
           <StaticImage
             src="../images/projects/obserfy/home.png"
             alt={""}
