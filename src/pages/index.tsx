@@ -52,7 +52,7 @@ const IndexPage: FC = () => (
     </header>
 
     <section className={"mb-32"}>
-      <h2 className="text-center my-8 font-serif text-3xl">Work with us</h2>
+      <h2 className="text-center my-16 font-serif text-3xl">Work with us</h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 w-full max-w-full px-4">
         <Services
@@ -82,10 +82,10 @@ const IndexPage: FC = () => (
     </section>
 
     <section>
-      <h2 className="text-center my-8 font-serif text-3xl">Projects</h2>
+      <h2 className="text-center my-16 font-serif text-3xl">Projects</h2>
 
       <div className="flex flex-col align-baseline md:flex-row mb-16 px-8 w-full max-w-full">
-        <div className={"md:pr-8 flex-1"}>
+        <div className={"md:pr-8 flex-1 mb-16"}>
           <StaticImage
             src="../images/projects/joyful/home.png"
             alt={""}
@@ -94,7 +94,7 @@ const IndexPage: FC = () => (
             placeholder={"blurred"}
           />
 
-          <div className="bg-gradient-to-t from-white via-white pt-24 -mt-32 z-10 relative prose">
+          <div className="relative prose mt-4">
             <h3>Joyful Montessori</h3>
             <p className={"text-blue-700 bold font-serif"}>Business Websites</p>
             <p>
@@ -106,7 +106,7 @@ const IndexPage: FC = () => (
           </div>
         </div>
 
-        <div className={"md:pr-8 flex-1"}>
+        <div className={"md:pr-8 flex-1 mb-16"}>
           <StaticImage
             src="../images/projects/timetravelers/home.png"
             alt={""}
@@ -115,7 +115,7 @@ const IndexPage: FC = () => (
             placeholder={"blurred"}
           />
 
-          <div className="bg-gradient-to-t from-white via-white pt-24 -mt-32 z-10 relative prose">
+          <div className="relative prose mt-4">
             <h3>Timetravelers</h3>
             <p className={"text-emerald-700 bold font-serif"}>E-commerce</p>
             <p>
@@ -127,7 +127,7 @@ const IndexPage: FC = () => (
           </div>
         </div>
 
-        <div className={"md:pr-8 flex-1"}>
+        <div className={"md:pr-8 flex-1 mb-16"}>
           <StaticImage
             src="../images/projects/obserfy/home.png"
             alt={""}
@@ -136,7 +136,7 @@ const IndexPage: FC = () => (
             placeholder={"blurred"}
           />
 
-          <div className="bg-gradient-to-t from-white via-white pt-24 -mt-32 z-10 relative prose">
+          <div className="relative prose mt-4">
             <h3>Obserfy</h3>
             <p className={"text-red-700 bold font-serif"}>Web applications</p>
             <p>
